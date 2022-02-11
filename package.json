@@ -1,0 +1,24 @@
+{
+  "name": "sd-019-a-project-TrybeVoice",
+  "version": "1.0.0",
+  "description": "Projeto trybeVoice",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/imarmendes/sd-019-a-project-TrybeVoice.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/imarmendes/sd-019-a-project-TrybeVoice/issues"
+  },
+  "homepage": "https://github.com/imarmendes/sd-019-a-project-TrybeVoice#readme",
+  "dependencies": {
+    "axios": "^0.25.0",
+    "shelljs": "^0.8.5"
+  }
+}
