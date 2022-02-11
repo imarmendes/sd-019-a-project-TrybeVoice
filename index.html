@@ -10,20 +10,15 @@
   <title>Trybe Voice</title>
 </head>
 <body>
-  <header>
-    <h1>Trybe Voice</h1>
+  <header id='header'>
+    <img src="imagens/logo-trybe-voice.png" alt="logo" id="logo">
   </header>
   <main>
     <div>
-      <h2>Digite o texto a ser transcrito para audio.</h2>
-      <textarea name="textToTranscription" id="textToTranscription" cols="30" rows="10"></textarea>
+      <h2 id = 'instrucao'>Digite o texto a ser transcrito para audio.</h2>
+      <textarea name="textToTranscription" id="textToTranscription" cols="30" rows="10" maxlength="100"></textarea>
     </div>
-    <div>
-      <audio src="https://developer.mozilla.org/@api/deki/files/2926/=AudioTest_(1).ogg" autoplay>
-        O seu navegador não suporta o elemento <code>audio</code>.
-        </audio> 
-    </div>
-
+    <button type='submit' id="save"></button>
   </main>
   <footer>
     <p>Equipe</p>
