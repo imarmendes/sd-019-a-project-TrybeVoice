@@ -4,26 +4,28 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <script src="./node_modules/axios/dist/axios.min.js"></script> 
-  <script src="script3.js" defer></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <!-- <script src="./node_modules/axios/dist/axios.min.js"></script> 
+  <script src="script3.js" defer></script> -->
+  <!-- <script src="history.js" defer></script> -->
+  <script src="final1.js" defer></script>
   <link rel="stylesheet" href="style.css">
   <title>Trybe Voice</title>
 </head>
 <body>
-  <header>
-    <h1>Trybe Voice</h1>
+  <header id='header'>
+    <img src="imagens/logo-trybe-voice-2.png" alt="logo" id="logo">
   </header>
   <main>
+    
     <div>
-      <h2>Digite o texto a ser transcrito para audio.</h2>
-      <textarea name="textToTranscription" id="textToTranscription" cols="30" rows="10"></textarea>
+      <h2 id = 'instrucao'>Digite o texto a ser transcrito para audio.</h2>
+      <textarea name="textToTranscription" id="textToTranscription" cols="30" rows="10" maxlength="100"></textarea>
     </div>
-    <div>
-      <audio src="https://developer.mozilla.org/@api/deki/files/2926/=AudioTest_(1).ogg" autoplay>
-        O seu navegador não suporta o elemento <code>audio</code>.
-        </audio> 
-    </div>
-
+    <button type='submit' id="save">Salvar</button>
+    <ul class='sinthes'>Sintetizações feitas</ul>
   </main>
   <footer>
     <p>Equipe</p>
@@ -31,6 +33,6 @@
     <p>Imar Mendes </p>
     <p>Thiago Zardo </p>
     <p>Wanny Martins  </p>
-  </footer> 
+  </footer>
 </body>
 </html>

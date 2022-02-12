@@ -4,3 +4,35 @@
   box-sizing: border-box;
   text-align: center;
 }
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+header {
+  background-color: rgb(10, 118, 79);
+}
+
+#logo {
+  height: 150px;
+}
+
+.sinthes {
+  margin-bottom: 150px;
+  height: 400px;
+  overflow: auto;
+  font-weight: 700;
+  display: none;
+}
+
+.sintetizados {
+  font-weight: 400;
+}
+
+footer {
+  padding: 10px;
+  background-color: white;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
