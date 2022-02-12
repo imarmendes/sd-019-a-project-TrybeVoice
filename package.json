@@ -18,6 +18,8 @@
   },
   "homepage": "https://github.com/imarmendes/sd-019-a-project-TrybeVoice#readme",
   "dependencies": {
+    "@ffprobe-installer/ffprobe": "^1.1.0",
+    "fluent-ffmpeg": "^2.1.2",
     "axios": "^0.25.0",
     "ibm-watson": "^6.2.2",
     "shelljs": "^0.8.5"
