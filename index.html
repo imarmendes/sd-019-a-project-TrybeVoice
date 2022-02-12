@@ -16,13 +16,21 @@
     <h1><span id='inicio'>O texto que </span><span id='fim'>você quer ouvir</span></h1>
   </header>
   <main>
-    <div>
+    <div id = 'textoArea'>
       <h2 id = 'instrucao'>Digite um texto para ouví-lo!</h2>
       <textarea name="textToTranscription" id="textToTranscription" cols="30" rows="10" maxlength="100"></textarea>
     </div>
-    <button type='submit' id="save">Salve</button>
-    <button type=play id="play">Play</button>
+    <div id='ouvirDenovo'>
+      <h2 id='repete'>Ouça Novamente</h2>
+      <ul id='sinthes'></ul>
+    </div>
   </main>
+  <div id="button">
+
+    <button type=play id="play">Play</button>
+    <button type='submit' id="save">Salve</button>
+
+</div>
   <footer>
     <p id='p1'>Equipe</p>
     <div>
