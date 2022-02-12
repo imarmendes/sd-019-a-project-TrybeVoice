@@ -1,38 +1,37 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
   <!-- <script src="./node_modules/axios/dist/axios.min.js"></script> 
   <script src="script3.js" defer></script> -->
-  <!-- <script src="history.js" defer></script> -->
-  <script src="final1.js" defer></script>
+  <script src="history.js" defer></script>
   <link rel="stylesheet" href="style.css">
   <title>Trybe Voice</title>
 </head>
 <body>
   <header id='header'>
-    <img src="imagens/logo-trybe-voice-2.png" alt="logo" id="logo">
+    <img src="imagens/logo-trybe-voice-menor.png" alt="logo" id="logo">
+    <h1><span id='inicio'>O texto que </span><span id='fim'>você quer ouvir</span></h1>
   </header>
   <main>
     
     <div>
-      <h2 id = 'instrucao'>Digite o texto a ser transcrito para audio.</h2>
+      <h2 id = 'instrucao'>Digite um texto para ouví-lo!</h2>
       <textarea name="textToTranscription" id="textToTranscription" cols="30" rows="10" maxlength="100"></textarea>
     </div>
-    <button type='submit' id="save">Salvar</button>
-    <ul class='sinthes'>Sintetizações feitas</ul>
+    <button type='submit' id="save">Salve</button>
+    <button type=play id="play">Play</button>
   </main>
   <footer>
-    <p>Equipe</p>
-    <p>Caio Costa</p>
-    <p>Imar Mendes </p>
-    <p>Thiago Zardo </p>
-    <p>Wanny Martins  </p>
-  </footer>
+    <p id='p1'>Equipe</p>
+    <div>
+    <p id='p2'>Caio Costa</p>
+    <p id='p3'>Imar Mendes </p>
+    <p id='p4'>Thiago Zardo </p>
+    <p id='p5'>Wanny Martins  </p>
+  </div>
+  </footer> 
 </body>
 </html>
